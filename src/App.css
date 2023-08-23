@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.Login-body {
+  background-image: url('./assets/bglogin.jpeg');
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-size: contain; /* Resize to fit the width, maintaining aspect ratio */
+    background-position: center center;
+  }
+}
+
+/* Media query for extra large screens */
+@media screen and (min-width: 1200px) {
+  body {
+    background-size: 100% auto; /* Resize to fit the width, without maintaining aspect ratio */
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
